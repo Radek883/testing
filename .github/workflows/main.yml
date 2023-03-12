@@ -1,0 +1,21 @@
+- name: MelonLoader Toolchain
+  # You may pin to the exact commit or the version.
+  # uses: tetra-fox/ml-gen@e501c74c14ebb5ebe77dd05e7d329cc077a431c8
+  uses: tetra-fox/ml-gen@v1.2.0
+  with:
+    # gameSlug from MelonLoader API
+    game: 
+    # Path to your Unity game
+    game_path: 
+    # Your Unity game's executable name
+    game_executable: 
+    # Override Unity version (If it was not automatically found)
+    unity_version: # optional
+    # Where tools will be downloaded
+    work_path: # optional, default is ${{ github.workspace }}/ml-gen
+    # Output directory for libraries
+    output_path: # optional
+    # MelonLoader release tag name
+    ml_version: # optional, default is latest
+    # GitHub token to download tools
+    github_token: # optional, default is ${{ github.token }}
