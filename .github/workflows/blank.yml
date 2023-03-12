@@ -1,0 +1,2 @@
+- name: MelonLoader Toolchain
+  uses: tetra-fox/ml-gen@v1.2.0
